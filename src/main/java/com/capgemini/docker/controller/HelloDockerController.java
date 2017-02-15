@@ -21,6 +21,6 @@ public class HelloDockerController {
 
     @GetMapping(path="/message")
     public String helloMessage(){
-        return "Test Message";
+        return "Hello Docker";
     }
 }
