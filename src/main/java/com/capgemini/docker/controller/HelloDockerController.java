@@ -16,7 +16,7 @@ public class HelloDockerController {
     @GetMapping(path="/")
     public Message helloDocker(){
         id++;
-        return new Message(id, "Hello Docker");
+        return new Message(id, "Hello Docker in AWS");
     }
 
     @GetMapping(path="/message")
